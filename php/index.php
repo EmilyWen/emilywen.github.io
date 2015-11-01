@@ -15,7 +15,7 @@ require_once 'settings.php';
 $auth = new OneLogin_Saml2_Auth($settingsInfo);
 
 if (isset($_GET['sso'])) {
-    $auth->login('http://localhost/hw2/first_page.php');
+    $auth->login('http://localhost/hw4/php/forum.php');
 } else if (isset($_GET['sso2'])) {
     $returnTo = $spBaseUrl.'/php/attrs.php';
     $auth->login($returnTo);

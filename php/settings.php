@@ -1,6 +1,6 @@
 <?php
 
-    $spBaseUrl = 'http://localhost/hw3'; //or http://<your_domain>
+    $spBaseUrl = 'http://localhost/hw4'; //or http://<your_domain>
 
     $settingsInfo = array (
         'sp' => array (
